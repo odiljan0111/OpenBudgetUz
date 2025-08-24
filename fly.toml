@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for openbudgetuz-0i99fa on 2025-08-24T05:59:18Z
+# fly.toml app configuration file generated for openbudgetuz-zi6onq on 2025-08-24T12:40:00Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'openbudgetuz-0i99fa'
+app = 'openbudgetuz-zi6onq'
 primary_region = 'hkg'
 
 [build]
