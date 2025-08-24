@@ -1,14 +1,14 @@
-# Python image tanlash (3.10 versiyasi barqaror)
 FROM python:3.10-slim
 
-# Container ichida ishchi papka
+# Ishchi papka yaratamiz
 WORKDIR /app
 
-# Project fayllarini copy qilish
-COPY . /app
-
-# Kutubxonalarni o‘rnatish
+# Kutubxonalarni o‘rnatamiz
+COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Botni ishga tushirish
+# Kodni ko‘chiramiz
+COPY . .
+
+# Botni ishga tushiramiz
 CMD ["python", "bot.py"]
