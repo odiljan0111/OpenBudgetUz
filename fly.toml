@@ -1,13 +1,2 @@
-app = "your-app-name"
-
-[env]
-  PYTHONUNBUFFERED = "true"
-
-[[services]]
-  internal_port = 8080
-  processes = ["app"]
-  protocol = "tcp"
-
-  [[services.ports]]
-    handlers = ["http"]
-    port = 80
+flyctl secrets set BOT_TOKEN=8304278989:AAGT12MlA-ADKZUZU8YDssMOwAPXU1ZTT44
+flyctl secrets set FLY_APP_NAME=openbudgetuz-p164zw
